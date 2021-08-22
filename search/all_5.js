@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['fg_5fazure_0',['FG_AZURE',['../colors_8h.html#af080f5d43a01f5b569e9b0231e4f92ad',1,'colors.h']]],
+  ['fg_5fblack_1',['FG_BLACK',['../colors_8h.html#a9b32d0a26f9909c5b63ccd474f56420e',1,'colors.h']]],
+  ['fg_5fblue_2',['FG_BLUE',['../colors_8h.html#a4e411f6bd6ac8d6c2bd23d866c097e91',1,'colors.h']]],
+  ['fg_5fcyan_3',['FG_CYAN',['../colors_8h.html#afb40e6e076755308612ed6e18a34dbeb',1,'colors.h']]],
+  ['fg_5fgreen_4',['FG_GREEN',['../colors_8h.html#a0af1e03653ace4d21aebf3b2e03a6535',1,'colors.h']]],
+  ['fg_5fgrey_5',['FG_GREY',['../colors_8h.html#a5142f80dfa88eb9adc9d8acda8c492dd',1,'colors.h']]],
+  ['fg_5flblue_6',['FG_lBLUE',['../colors_8h.html#a7cc7ad2a003437a83df1adf07cccd3c8',1,'colors.h']]],
+  ['fg_5flgrey_7',['FG_lGREY',['../colors_8h.html#a63add21d9f791b9a13b507920e172bed',1,'colors.h']]],
+  ['fg_5flime_8',['FG_LIME',['../colors_8h.html#a5b644ef4a53401f90ecf5ea7f8a06e1e',1,'colors.h']]],
+  ['fg_5forange_9',['FG_ORANGE',['../colors_8h.html#a769b9f427d260db63e513bedf0723f05',1,'colors.h']]],
+  ['fg_5fpink_10',['FG_PINK',['../colors_8h.html#ae1fa9e196b7d2126082c1c81992db100',1,'colors.h']]],
+  ['fg_5fpurple_11',['FG_PURPLE',['../colors_8h.html#ace98454fb866246bd34c2576dd4abb77',1,'colors.h']]],
+  ['fg_5fred_12',['FG_RED',['../colors_8h.html#a1dc5215d084174df6f00a9267cec2f17',1,'colors.h']]],
+  ['fg_5fviolet_13',['FG_VIOLET',['../colors_8h.html#a64dea6214118e90d38ce4b7e020cda40',1,'colors.h']]],
+  ['fg_5fwhite_14',['FG_WHITE',['../colors_8h.html#a7fbb956b9e769a1020c2eff1f6743857',1,'colors.h']]],
+  ['fg_5fyellow_15',['FG_YELLOW',['../colors_8h.html#a266aa539aa271da1b1f711d2413b1bfa',1,'colors.h']]],
+  ['fifthparagraph_16',['fifthParagraph',['../classfifth_paragraph.html#a8f067775307efc3cc13060d2059c3c88',1,'fifthParagraph::fifthParagraph()'],['../classfifth_paragraph.html',1,'fifthParagraph'],['../classfifth_paragraph.html#a8f067775307efc3cc13060d2059c3c88',1,'fifthParagraph::fifthParagraph()']]],
+  ['firstparagraph_17',['firstParagraph',['../classfirst_paragraph.html',1,'firstParagraph'],['../classfirst_paragraph.html#a94d435387da6494f1f71e6d51235c693',1,'firstParagraph::firstParagraph(std::string _paragraphName, std::string _description)'],['../classfirst_paragraph.html#a94d435387da6494f1f71e6d51235c693',1,'firstParagraph::firstParagraph(std::string _paragraphName, std::string _description)'],['../classfirst_paragraph.html#a94d435387da6494f1f71e6d51235c693',1,'firstParagraph::firstParagraph(std::string _paragraphName, std::string _description)'],['../classfirst_paragraph.html#a94d435387da6494f1f71e6d51235c693',1,'firstParagraph::firstParagraph(std::string _paragraphName, std::string _description)']]],
+  ['font_5fsize_18',['FONT_SIZE',['../_dialog_box_example_8cpp.html#aa968a61524f9ed159c4c5464cb26dd41',1,'FONT_SIZE():&#160;DialogBoxExample.cpp'],['../_horizontal_menu_example1_8cpp.html#aa968a61524f9ed159c4c5464cb26dd41',1,'FONT_SIZE():&#160;HorizontalMenuExample1.cpp'],['../_horizontal_menu_example2_8cpp.html#aa968a61524f9ed159c4c5464cb26dd41',1,'FONT_SIZE():&#160;HorizontalMenuExample2.cpp'],['../_vertical_menu_example1_8cpp.html#aa968a61524f9ed159c4c5464cb26dd41',1,'FONT_SIZE():&#160;VerticalMenuExample1.cpp'],['../_vertical_menu_example2_8cpp.html#aa968a61524f9ed159c4c5464cb26dd41',1,'FONT_SIZE():&#160;VerticalMenuExample2.cpp']]],
+  ['fontsize_19',['fontSize',['../class_graphics.html#afa2ee39a7ce40ba4d14ae680ef542caa',1,'Graphics']]],
+  ['fourthparagraph_20',['fourthParagraph',['../classfourth_paragraph.html',1,'fourthParagraph'],['../classfourth_paragraph.html#a5ab9e4f97790bf723d681ac6474ca398',1,'fourthParagraph::fourthParagraph(std::string _paragraphName, std::string _description)'],['../classfourth_paragraph.html#a5ab9e4f97790bf723d681ac6474ca398',1,'fourthParagraph::fourthParagraph(std::string _paragraphName, std::string _description)'],['../classfourth_paragraph.html#a5ab9e4f97790bf723d681ac6474ca398',1,'fourthParagraph::fourthParagraph(std::string _paragraphName, std::string _description)'],['../classfourth_paragraph.html#a5ab9e4f97790bf723d681ac6474ca398',1,'fourthParagraph::fourthParagraph(std::string _paragraphName, std::string _description)']]],
+  ['frame_21',['Frame',['../class_frame.html#a3a09840e2a676ef1e8da121c329939a3',1,'Frame::Frame(int _originX, int _originY, int _Width, int _Height)'],['../class_frame.html#af6630ed877cf39a209355e8c85acdc46',1,'Frame::Frame(int _originX, int _originY, int _Width, int _Height, frameSegments _segments)'],['../class_frame.html#af859480e7bdedf343c1ad7d941106f26',1,'Frame::Frame()=default'],['../class_frame.html',1,'Frame']]],
+  ['framesegments_22',['frameSegments',['../structframe_segments.html',1,'']]],
+  ['frontground_23',['frontground',['../structcolor.html#a9fd36c28039e51c1fd336a88ad2376ba',1,'color']]]
+];
