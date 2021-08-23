@@ -184,11 +184,11 @@ public:
 	 *	\param _secondaryColor	Gets color structure for secondaryColors.
 	 *	\param _fontSize		Gets integer value for fontSize.
 	 *	
-	 *	\exmample Graphics window(1920, 1080, { BG_BLACK, FG_WHITE }, { BG_ORANGE, FG_BLACK }, 48);
+	 *	\example DefineWindowsProperties1 Graphics window(1920, 1080, { BG_BLACK, FG_WHITE }, { BG_ORANGE, FG_BLACK }, 48);
 	 */
 	Graphics(int resolutionX, int resolutionY, color _defaultColor, color _secondaryColor, int _fontSize);
 
-	/** \fn Graphics(int resolutionX, int resolutionY, color _defaultColor, color _secondaryColor, int _fontSize)
+	/** \fn Graphics(int resolutionX, int resolutionY, int _fontSize)
 	 *	\brief Public constructor of 'Graphics' class without setting colors ability.
 	 *
 	 *	\details Public constructor of 'Graphics' class without setting colors ability. Sets default window size and font size
@@ -196,7 +196,7 @@ public:
 	 *	\param resolutionY		Height of the window.
 	 *	\param _fontSize		Gets integer value for fontSize.
 	 *
-	 *	\exmample Graphics window(1920, 1080, 48);
+	 *	\example DefineWindowsProperties2 Graphics window(1920, 1080, 48);
 	 */
 	Graphics(int resolutionX, int resolutionY, int _fontSize);
 };
