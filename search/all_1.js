@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_0',['B',['../_horizontal_menu_example1_8cpp.html#a34923374d8cf0a965da494a1dbae8c34',1,'B():&#160;HorizontalMenuExample1.cpp'],['../_horizontal_menu_example2_8cpp.html#a34923374d8cf0a965da494a1dbae8c34',1,'B():&#160;HorizontalMenuExample2.cpp'],['../_vertical_menu_example1_8cpp.html#a34923374d8cf0a965da494a1dbae8c34',1,'B():&#160;VerticalMenuExample1.cpp'],['../_vertical_menu_example2_8cpp.html#a34923374d8cf0a965da494a1dbae8c34',1,'B():&#160;VerticalMenuExample2.cpp']]],
+  ['b_0',['B',['../_check_box_example_8cpp.html#a34923374d8cf0a965da494a1dbae8c34',1,'B():&#160;CheckBoxExample.cpp'],['../_double_menu_example_8cpp.html#a34923374d8cf0a965da494a1dbae8c34',1,'B():&#160;DoubleMenuExample.cpp'],['../_horizontal_menu_example1_8cpp.html#a34923374d8cf0a965da494a1dbae8c34',1,'B():&#160;HorizontalMenuExample1.cpp'],['../_horizontal_menu_example2_8cpp.html#a34923374d8cf0a965da494a1dbae8c34',1,'B():&#160;HorizontalMenuExample2.cpp'],['../_vertical_menu_example1_8cpp.html#a34923374d8cf0a965da494a1dbae8c34',1,'B():&#160;VerticalMenuExample1.cpp'],['../_vertical_menu_example2_8cpp.html#a34923374d8cf0a965da494a1dbae8c34',1,'B():&#160;VerticalMenuExample2.cpp']]],
   ['background_1',['background',['../structcolor.html#aeac42086edf8d62eb8db4505a4656940',1,'color']]],
   ['backgroundcolor_2',['backgroundColor',['../struct_m_s_g___b_o_x___t_y_p_e.html#aec43c9e45b922810359205126cc9fbfb',1,'MSG_BOX_TYPE']]],
   ['bg_5fazure_3',['BG_AZURE',['../colors_8h.html#a25b42d82e71e2ca84888f6414fafd341',1,'colors.h']]],

@@ -1,5 +1,4 @@
-#include "pch.h"
-#include "Semi-Graphics.h"
+#include "../sources/Semi-Graphics.h"
 
 #define FONT_SIZE 42
 #define WINDOW_WIDTH 1920
@@ -116,7 +115,7 @@ int main()
 	//window.makeFrame(0, 0, WINDOW_WIDTH / 10 - calculatePercent((WINDOW_WIDTH / 10), 11), WINDOW_HEIGHT / 10 - calculatePercent(WINDOW_HEIGHT / 10, 80) );
 
 	Frame frame1(0, 15, WINDOW_WIDTH / (48 / 2) + 5, 5, { '+', NULL, NULL, NULL, '-', '|' });
-	Frame frame2(0, 0, WINDOW_WIDTH / (48 / 2) + 5, 14);
+	Frame frame2(0, 1, WINDOW_WIDTH / (48 / 2) + 5, 13);
 
 	frame1.spawnFrame();
 	frame2.spawnFrame();
@@ -142,8 +141,8 @@ int main()
 
 	// Removing paragraphs objects to escape memory leak
 	delete fstPar, sndPar, trdPar, frtPar, objects;
-	SecureZeroMemory(menuNames, 4);
-	SecureZeroMemory(menuDescriptions, 4);
+	SecureZeroMemory(menuNames, sizeof(menuNames));
+	SecureZeroMemory(menuDescriptions, sizeof(menuNames));
 
 	system("pause");
 

@@ -49,7 +49,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_custom_frame-example.html"
+"_check_box_example_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['c_0',['C',['../_horizontal_menu_example1_8cpp.html#a2c390d4845601fe7f2ee225c1ef83ab7',1,'C():&#160;HorizontalMenuExample1.cpp'],['../_horizontal_menu_example2_8cpp.html#a2c390d4845601fe7f2ee225c1ef83ab7',1,'C():&#160;HorizontalMenuExample2.cpp'],['../_vertical_menu_example1_8cpp.html#a2c390d4845601fe7f2ee225c1ef83ab7',1,'C():&#160;VerticalMenuExample1.cpp'],['../_vertical_menu_example2_8cpp.html#a2c390d4845601fe7f2ee225c1ef83ab7',1,'C():&#160;VerticalMenuExample2.cpp']]],
+  ['c_0',['C',['../_check_box_example_8cpp.html#a2c390d4845601fe7f2ee225c1ef83ab7',1,'C():&#160;CheckBoxExample.cpp'],['../_double_menu_example_8cpp.html#a2c390d4845601fe7f2ee225c1ef83ab7',1,'C():&#160;DoubleMenuExample.cpp'],['../_horizontal_menu_example1_8cpp.html#a2c390d4845601fe7f2ee225c1ef83ab7',1,'C():&#160;HorizontalMenuExample1.cpp'],['../_horizontal_menu_example2_8cpp.html#a2c390d4845601fe7f2ee225c1ef83ab7',1,'C():&#160;HorizontalMenuExample2.cpp'],['../_vertical_menu_example1_8cpp.html#a2c390d4845601fe7f2ee225c1ef83ab7',1,'C():&#160;VerticalMenuExample1.cpp'],['../_vertical_menu_example2_8cpp.html#a2c390d4845601fe7f2ee225c1ef83ab7',1,'C():&#160;VerticalMenuExample2.cpp']]],
   ['calculateposition_1',['calculatePosition',['../class_graphics.html#a6a65afe383ca1b5fc26a672eac53f4c1',1,'Graphics']]],
   ['checkbox_2',['checkBox',['../class_menu.html#ae3a4b0c146f044e811f324c38691c307',1,'Menu']]],
-  ['cls_3',['cls',['../_semi-_graphics_8cpp.html#a9cd2d3142cedfecd4aed1f3f7e94de59',1,'cls(HANDLE hConsole):&#160;Semi-Graphics.cpp'],['../_semi-_graphics_8h.html#ad7867e9ac91f3790f89b28fab8d5f056',1,'cls(HANDLE hConsole):&#160;Semi-Graphics.cpp']]],
-  ['color_4',['color',['../structcolor.html',1,'']]],
-  ['colors_2eh_5',['colors.h',['../colors_8h.html',1,'']]]
+  ['checkboxexample_2ecpp_3',['CheckBoxExample.cpp',['../_check_box_example_8cpp.html',1,'']]],
+  ['cls_4',['cls',['../_semi-_graphics_8cpp.html#a9cd2d3142cedfecd4aed1f3f7e94de59',1,'cls(HANDLE hConsole):&#160;Semi-Graphics.cpp'],['../_semi-_graphics_8h.html#ad7867e9ac91f3790f89b28fab8d5f056',1,'cls(HANDLE hConsole):&#160;Semi-Graphics.cpp']]],
+  ['color_5',['color',['../structcolor.html',1,'']]],
+  ['colors_2eh_6',['colors.h',['../colors_8h.html',1,'']]]
 ];

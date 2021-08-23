@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Console Graphics<span id="projectnumber">&#160;0.2</span>
+   <div id="projectname">Console Graphics<span id="projectnumber">&#160;v0.3</span>
    </div>
   </td>
  </tr>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('class_menu.html',''); initResizable();
   <tr class="odd"><td class="entry"><a class="el" href="class_graphics.html#a56d9b417c08e701f8ff6b07415dc7cc2">Graphics</a>(int resolutionX, int resolutionY, color _defaultColor, color _secondaryColor, int _fontSize)</td><td class="entry"><a class="el" href="class_graphics.html">Graphics</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_graphics.html#a20f90d78d1826e34d7f09a9bc86a391c">Graphics</a>(int resolutionX, int resolutionY, int _fontSize)</td><td class="entry"><a class="el" href="class_graphics.html">Graphics</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_frame.html#a205eb0e96bd261ffaad1975d7dc29e86">Height</a></td><td class="entry"><a class="el" href="class_frame.html">Frame</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_menu.html#a35731f68d5671904b6c73b9c4542a965">horizontal</a>()</td><td class="entry"><a class="el" href="class_menu.html">Menu</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_menu.html#ac90b8e5c00af6c3cc8a30b393c40c9f4">horizontal</a>(BOOL onlyDraw=FALSE)</td><td class="entry"><a class="el" href="class_menu.html">Menu</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_menu.html#ab438a4fee7dd11b81bb54f342a3348ce">Menu</a>(int _size, int _X, int _Y, PARAGRAPH *_menuObject[], Graphics _Graphics, Frame _descriptionField)</td><td class="entry"><a class="el" href="class_menu.html">Menu</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_menu.html#af3d8e08330919f1fea6c6b032d38cf26">Menu</a>(int _size, PARAGRAPH *_menuObject[], Graphics _Graphics, Frame _descriptionField)</td><td class="entry"><a class="el" href="class_menu.html">Menu</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_menu.html#a33b8e0a0f2b6893cc2be91eb1c762f6a">Menu</a>(int _size, PARAGRAPH *_menuObject[], Frame _Frame, Graphics _Graphics, Frame _descriptionField)</td><td class="entry"><a class="el" href="class_menu.html">Menu</a></td><td class="entry"></td></tr>
@@ -109,11 +109,11 @@ $(document).ready(function(){initNavTree('class_menu.html',''); initResizable();
   <tr class="even"><td class="entry"><a class="el" href="class_graphics.html#aaecb15fe61734830c2c0c9409523726d">setCursor</a>(int x, int y)</td><td class="entry"><a class="el" href="class_graphics.html">Graphics</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_graphics.html#a6f4123a2f44c9af32cef074ba0084e4c">setTextProperties</a>(int color, int _fontSize=48)</td><td class="entry"><a class="el" href="class_graphics.html">Graphics</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_frame.html#a74a40eeb988e8fb8c9d84408420d011f">spawnFrame</a>()</td><td class="entry"><a class="el" href="class_frame.html">Frame</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_menu.html#a22e596cfcaf8c6f8a09d53a432f3b0ab">vertical</a>()</td><td class="entry"><a class="el" href="class_menu.html">Menu</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_frame.html#a81977c7950221b73aef5c31df8849187">Width</a></td><td class="entry"><a class="el" href="class_frame.html">Frame</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_graphics.html#a0e51ace3344d29dbc6230a123c119f4f">windowHeight</a></td><td class="entry"><a class="el" href="class_graphics.html">Graphics</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_graphics.html#a079d177d26cab456116b991b6d413ddb">windowWidth</a></td><td class="entry"><a class="el" href="class_graphics.html">Graphics</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_menu.html#a831387f51358cfb88cd018e1777bc980">~Menu</a>()</td><td class="entry"><a class="el" href="class_menu.html">Menu</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_menu.html#aa043ab4af1552bfce9f04b11720266eb">switchMenu</a>(Menu *menu1, Menu *menu2, BOOL(Menu::*abstractMenu1)(BOOL onlyDraw), BOOL(Menu::*abstractMenu2)(BOOL onlyDraw))</td><td class="entry"><a class="el" href="class_menu.html">Menu</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_menu.html#a4673b10e612d489addd7a2eada9d24d3">vertical</a>(BOOL onlyDraw=FALSE)</td><td class="entry"><a class="el" href="class_menu.html">Menu</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_frame.html#a81977c7950221b73aef5c31df8849187">Width</a></td><td class="entry"><a class="el" href="class_frame.html">Frame</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graphics.html#a0e51ace3344d29dbc6230a123c119f4f">windowHeight</a></td><td class="entry"><a class="el" href="class_graphics.html">Graphics</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graphics.html#a079d177d26cab456116b991b6d413ddb">windowWidth</a></td><td class="entry"><a class="el" href="class_graphics.html">Graphics</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

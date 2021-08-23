@@ -1,9 +1,8 @@
-﻿#include "pch.h"
-#include "Semi-Graphics.h"
+﻿#include "../sources/Semi-Graphics.h"
 
-#define FONT_SIZE 36
-#define WINDOW_WIDTH 1240
-#define WINDOW_HEIGHT 820
+#define FONT_SIZE 42
+#define WINDOW_WIDTH 1920
+#define WINDOW_HEIGHT 1080
 
 void A()
 {
@@ -95,10 +94,11 @@ public:
 
 int main()
 {
+	
 	Graphics window(WINDOW_WIDTH, WINDOW_HEIGHT, {BG_BLACK, FG_WHITE}, {BG_ORANGE, FG_BLACK}, FONT_SIZE);
 
 	//window.makeFrame(0, 0, WINDOW_WIDTH / 10 - calculatePercent((WINDOW_WIDTH / 10), 11), WINDOW_HEIGHT / 10 - calculatePercent(WINDOW_HEIGHT / 10, 80) );
-	Frame frame(0, 0, (WINDOW_WIDTH / FONT_SIZE) * 2, WINDOW_HEIGHT / (FONT_SIZE * 2));
+	Frame frame(0, 1, (WINDOW_WIDTH / FONT_SIZE) * 2 - 4, WINDOW_HEIGHT / (FONT_SIZE * 2));
 	frame.spawnFrame();
 
 	std::string menuNames[4] = { "1 MENU" , "2 HELP", "3 TEST", "4 EXIT" };
@@ -123,9 +123,9 @@ int main()
 
 	// Removing paragraphs objects to escape memory leak
 	delete fstPar, sndPar, trdPar, frtPar, objects;
-	SecureZeroMemory(menuNames, 4);
-	SecureZeroMemory(menuDescriptions, 4);
-	
+	SecureZeroMemory(menuNames, sizeof(menuNames));
+	SecureZeroMemory(menuDescriptions, sizeof(menuNames));
+
 	system("pause");
 
 	return 0;
